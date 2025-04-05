@@ -18,14 +18,16 @@
 <body>
   <div class="page">
     <header class="header">
-      <img class="header__nav_logo" src="./images/logo_coffeeshop_dark.svg" alt="logo Triple Expresso color negro">
-      <nav class="header__nav">
-        <ul class="header__nav_link">
-          <li class="header__nav_links"><a href="#recetas">Recetas</a></li>
-          <li class="header__nav_links"><a href="#reservas">Reservar una mesa</a></li>
-          <li class="header__nav_links"><a href="#">Contactos</a></li>
-        </ul>
-      </nav>
+      <div class="header__header">
+        <img class="header__nav_logo" src="./images/logo_coffeeshop_dark.svg" alt="logo Triple Expresso color negro">
+        <nav class="header__nav">
+          <ul class="header__nav_link">
+            <li class="header__nav_links"><a href="#recetas">Recetas</a></li>
+            <li class="header__nav_links"><a href="#reservas">Reservar una mesa</a></li>
+            <li class="header__nav_links"><a href="#">Contactos</a></li>
+          </ul>
+        </nav>
+      </div>
       <div class="header__container">
         <section class="header__container_text">
           <h1 class="header__title"><span class="header__span_acent">Café de especialidad</span><br>en Triple Peaks</h1>
@@ -36,12 +38,15 @@
         </section>
       </div>
       <div class="header__footer">
-        <p class="header__paragraph"><strong>Horario:</strong></p>
-        <p class="header__paragraph">Lunes a Viernes (de 10:00h a 19:00h)</p>
-        <p class="header__paragraph">Sábados y Domingos (de 11:00h a 18:00h)</p>
+        <span>
+          <p class="header__paragraph"><strong>Horario:</strong></p>
+          <p class="header__paragraph">Lunes a Viernes (de 10:00h a 19:00h)</p>
+          <p class="header__paragraph">Sábados y Domingos (de 11:00h a 18:00h)</p>
+        </span>
         <p class="header__paragraph">Avenida del Éxito 200, Ciudad Triple Peaks</p>
       </div>
     </header>
+
     <main class="content">
 
       <section class="recipes">
@@ -58,8 +63,8 @@
           </div>
         </div>
       </section>
-      <section id="reservas" class="reservation">
 
+      <section id="reservas" class="reservation">
       </section>
 
     </main>
