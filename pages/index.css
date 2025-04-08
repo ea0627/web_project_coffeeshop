@@ -43,7 +43,7 @@
   height: 39px;
 }
 
-.header__nav_link{
+.header__nav_links{
   display: flex;
   flex-direction: row;
   list-style-type: none;
@@ -57,7 +57,7 @@
 
 }
 
-.header__nav_links{
+.header__nav_link{
   list-style: none;
 }
 
