@@ -28,6 +28,7 @@
   align-items: center;
   justify-content: space-between;
   margin: 30px 80px 0 30px;
+  background: none;
 }
 
 .header__nav{
