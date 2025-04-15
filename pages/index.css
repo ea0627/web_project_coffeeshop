@@ -1,10 +1,12 @@
 .page {
-  /*min-width: 1100px; Ancho mínimo */
-  /*max-width: 1600px; Ancho máximo */
+  min-width: 1100px; /*Ancho mínimo*/
+  max-width: 1600px; /*Ancho máximo*/
   /*margin: 0 auto; Centra el bloque en pantallas más grandes */
   font-family: "Inter", Arial, sans-serif; /* Inter con alternativas */
   font-size: 16px; /* Tamaño de fuente */
   line-height: 20px; /* Altura de línea */
+  margin-right: 0;
+  margin-left: 0;
 }
 
 .noto-serif {
