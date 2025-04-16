@@ -27,13 +27,7 @@
 }
 
 .header__container{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: start;
-  width: 100%;
-  max-width: 1440px;
-  margin: 0 auto;
+
 }
 
 .header__logo{
@@ -50,6 +44,14 @@
   margin-bottom: 0;
   margin-top: 0;
 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: start;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+
 }
 
 .header__nav_links{
@@ -62,6 +64,7 @@
 
 .header__nav_link{
   display: flex;
+  justify-content: space-between;
   gap: 20px;
   font-family: "Inter";
   font-style: normal;
