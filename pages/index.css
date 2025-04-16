@@ -26,7 +26,7 @@
   padding-bottom: 40px;
 }
 
-.header__nav{
+.nav{
   width: 100%;
   max-width: 1440px;
   margin: 0 auto;
@@ -40,7 +40,7 @@
   margin-top: 0;
 }
 
-.header__logo{
+.nav__logo{
   display: flex;
   position: relative;
   padding-top: 30px;
@@ -49,18 +49,18 @@
   height: 39px;
 }
 
-.header__nav_links{
+.nav__links{
   display: flex;
   justify-content: flex-end;
   align-items: flex-start;
 
   padding-top: 30px;
   padding-right: 80px;
-  gap: 0;
+  gap: 20px;
   width: 100%;
 }
 
-.header__nav_link{
+.nav__link{
   display: flex;
   justify-content: flex-end;
   gap: 20px;
