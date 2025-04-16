@@ -65,7 +65,7 @@
 
     <main class="content">
 
-      <section id="section-recipes" class="recipes">
+      <section class="recipes" id="section-recipes" >
         <h2 class="recipes__title">Recetas</h2>
         <p class="recipes__subtitle">Hecha un vistazo a las recetas que hemos reunido para que elabores tus propios snacks</p>
         <div class="recipes__videos">
@@ -80,7 +80,24 @@
         </div>
       </section>
 
-      <section id="section-reservation" class="reservation">
+      <section class="reservation" id="section-reservation">
+        <h2 class="reservation__title">Reservar una mesa</h2>
+        <p class="reservation__subtitle">¡No olvides reservar tu mesa!</p>
+        <form class="reservation__form" action="https://formspree.io/f/xjvjlqzq" method="POST">
+          <label for="name" class="reservation__label">Nombre:</label>
+          <input type="text" id="name" name="name" class="reservation__input" required>
+
+          <label for="email" class="reservation__label">Email:</label>
+          <input type="email" id="email" name="email" class="reservation__input" required>
+
+          <label for="date" class="reservation__label">Fecha:</label>
+          <input type="date" id="date" name="date" class="reservation__input" required>
+
+          <label for="time" class="reservation__label">Hora:</label>
+          <input type="time" id="time" name="time" class="reservation__input" required>
+
+          <button type="submit" class="reservation__button">Reservar</button>
+        </form>
       </section>
 
     </main>
