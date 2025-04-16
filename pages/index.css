@@ -77,7 +77,7 @@
   width: 100%;
 }
 
-.header__content_logo{
+.header__content_text{
   /* background-color: blue; */
   display: flex;
   flex-direction: column;
