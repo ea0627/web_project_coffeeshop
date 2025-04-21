@@ -228,6 +228,7 @@
 }
 
 .reservation {
+  box-sizing: border-box;
   padding-top: 100px;
   padding-bottom: 120px;
   background-color: #D9E7FF;
@@ -256,28 +257,27 @@
 }
 
 .reservation__form{
+  box-sizing: border-box;
   width: 22%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
-  background-color: aquamarine;
 }
 
 fieldset{
   width: 100%;
-  /* box-sizing: border-box; */
+  box-sizing: border-box;
   padding: 0;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content:center ;
   border: 0px solid #A0B4D8;
-  background-color: blanchedalmond;
 }
 
 .reservation__label{
+  display: flex;
   font-family: "inter";
   font-style: normal;
   font-weight: 500;
@@ -285,9 +285,11 @@ fieldset{
   line-height: 20px;
 
   padding-bottom: 8px;
+  gap: 12px;
 }
 
 .reservation__input{
+  box-sizing: border-box;
   width: 100%;
   height: 60px;
   margin-bottom: 32px;
@@ -309,6 +311,7 @@ fieldset{
   background-color: #2F80ED;
   border: none;
   color: #FFFFFF;
+  margin-bottom: 32px;
 
   font-family: "Inter";
   font-style: normal;
