@@ -74,21 +74,6 @@
   color: #000000;
 }
 
-/* .header__content{
-  display: flex; */
-  /* background-color: bisque; */
-  /* width: 100%;
-} */
-
-/* .header__content_text{ */
-  /* background-color: blue; */
-  /* display: flex; */
-  /* flex-direction: column; */
-  /* justify-content: center; */
-
-  /* gap: 20px; */
-/* } */
-
 .header__title{
   /* background-color: red; */
   display: flex;
@@ -180,11 +165,8 @@
 }
 
 .content {
-
   display: flex;
   flex-direction: column;
-
-
 }
 
 .recipes{
@@ -246,6 +228,8 @@
 }
 
 .reservation {
+  padding-top: 100px;
+  padding-bottom: 120px;
   background-color: #D9E7FF;
   background-image: url(../images/background_reservation.svg);
   background-size: cover;
@@ -258,7 +242,6 @@
 
 
 .reservation__title{
-  margin-top: 100px;
   margin-left: 0;
   margin-right: 0;
   margin-bottom: 80px;
@@ -273,23 +256,25 @@
 }
 
 .reservation__form{
+  width: 22%;
   display: flex;
-  width: 20%;
   flex-direction: column;
   justify-content: center;
-  gap: 32px;
-  margin-bottom: 120px;
-  /* background-color: aquamarine; */
+  align-items: center;
+
+  background-color: aquamarine;
 }
 
 fieldset{
-  box-sizing: border-box;
+  width: 100%;
+  /* box-sizing: border-box; */
   padding: 0;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content:center ;
   border: 0px solid #A0B4D8;
+  background-color: blanchedalmond;
 }
 
 .reservation__label{
@@ -298,23 +283,33 @@ fieldset{
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
+
+  padding-bottom: 8px;
 }
 
 .reservation__input{
   width: 100%;
   height: 60px;
-  /* padding: 10px; */
-  border: 0px solid #A0B4D8;
+  margin-bottom: 32px;
+  border: 1px solid #838383;
   border-radius: 4px;
+  padding-left: 20px;
+  padding-top: 15px;
 
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
 }
 
 .reservation__button{
-  max-width: 385px;
+  width: 100%;
   height: 60px;
   background-color: #2F80ED;
   border: none;
   color: #FFFFFF;
+
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
