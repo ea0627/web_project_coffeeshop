@@ -38,24 +38,19 @@
         </ul>
       </nav>
 
+      <h1 class="header__title">
+        <span class="span-accent">
+          Café de especialidad
+        </span>en Triple Peaks</h1>
+      <p class="header__description">
+        ¡Te damos la bienvenida a nuestra zona de estudio!
+        Aquí tenemos café para darte energía y motivar tu creatividad.
+      </p>
 
-
-          <h1 class="header__title">
-            <span class="span-accent">
-              Café de especialidad
-            </span>en Triple Peaks</h1>
-          <p class="header__description">
-            ¡Te damos la bienvenida a nuestra zona de estudio!
-            Aquí tenemos café para darte energía y motivar tu creatividad.
-          </p>
-
-
-        <img
-        class="header__image"
-        src="./images/inside_coffee_shop.png"
-        alt="Ilustración de café">
-
-
+      <img
+      class="header__image"
+      src="./images/inside_coffee_shop.png"
+      alt="Ilustración de café">
 
       <div class="header__footer">
         <div class="header__footer header__footer_logo">
@@ -88,22 +83,32 @@
       </section>
 
       <section class="reservation" id="reservation">
-        <h2 class="reservation__title">Reservar una mesa</h2>
-        <p class="reservation__subtitle">¡No olvides reservar tu mesa!</p>
-        <form class="reservation__form" action="https://formspree.io/f/xjvjlqzq" method="POST">
-          <label for="name" class="reservation__label">Nombre:</label>
-          <input type="text" id="name" name="name" class="reservation__input" required>
+        <h1 class="reservation__title">Reservar una mesa</h1>
+        <form class="reservation__form">
 
-          <label for="email" class="reservation__label">Email:</label>
-          <input type="email" id="email" name="email" class="reservation__input" required>
+          <fieldset>
+            <label for="name" class="reservation__label">Nombre *</label>
+            <input type="text" id="name" name="name" class="reservation__input" placeholder="Nombre" required>
 
-          <label for="date" class="reservation__label">Fecha:</label>
-          <input type="date" id="date" name="date" class="reservation__input" required>
+            <label for="number" class="reservation__label">Numero de comensales *</label>
+            <input type="number" id="email" name="email" class="reservation__input" placeholder="1-8" required>
 
-          <label for="time" class="reservation__label">Hora:</label>
-          <input type="time" id="time" name="time" class="reservation__input" required>
+            <label for="date" class="reservation__label">Fecha y hora *</label>
+            <input type="date" id="date" name="date" class="reservation__input" required>
 
-          <button type="submit" class="reservation__button">Reservar</button>
+            <label for="email" class="reservation__label">Tu correo electronico *</label>
+            <input type="email" id="time" name="time" class="reservation__input" placeholder="email@email.com" required>
+
+          </fieldset>
+
+          <button type="submit" class="reservation__button">Reservar una mesa</button>
+
+
+          <label for="terms" class="reservation__label">
+            <input type="checkbox" id="terms" name="terms" class="reservation__checkbox" required>
+            Acepto los terminos y condiciones
+          </label>
+
         </form>
       </section>
 

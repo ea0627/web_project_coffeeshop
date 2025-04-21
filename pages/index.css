@@ -58,8 +58,8 @@
   padding-right: 80px;
   gap: 20px;
   width: 100%;
-  color: #000000;
-  text-decoration: none;
+
+
   list-style-type: none;
 }
 
@@ -70,7 +70,8 @@
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
-
+  text-decoration: none;
+  color: #000000;
 }
 
 /* .header__content{
@@ -140,8 +141,6 @@
   height: 568px;
 }
 
-
-
 .header__footer {
 
   /* background-color: gold; */
@@ -181,18 +180,20 @@
 }
 
 .content {
-  background: #0a2750;
+
   display: flex;
   flex-direction: column;
-  background-image: url(../images/background_recipes.svg);
-  background-size: cover;
-  background-position: center;
+
 
 }
 
 .recipes{
   display: flex;
   flex-direction: column;
+  background: #0a2750;
+  background-image: url(../images/background_recipes.svg);
+  background-size: cover;
+  background-position: center;
 }
 
 .recipes__title{
@@ -242,4 +243,88 @@
 
 .recipes__iframe{
   border: none;
+}
+
+.reservation {
+  background-color: #D9E7FF;
+  background-image: url(../images/background_reservation.svg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.reservation__title{
+  margin-top: 100px;
+  margin-bottom: 80px;
+  align-items: center;
+  justify-content: center;
+  color: #000000;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+}
+
+.reservation__form{
+  display: flex;
+  width: 20%;
+  flex-direction: column;
+  justify-content: center;
+  gap: 32px;
+  margin-bottom: 120px;
+  /* background-color: aquamarine; */
+}
+
+fieldset{
+  box-sizing: border-box;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content:center ;
+  border: 0px solid #A0B4D8;
+}
+
+.reservation__label{
+  font-size: "inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.reservation__input{
+  width: 100%;
+  height: 60px;
+  /* padding: 10px; */
+  border: 0px solid #A0B4D8;
+  border-radius: 4px;
+
+}
+
+.reservation__button{
+  max-width: 385px;
+  height: 60px;
+  background-color: #2F80ED;
+  border: none;
+  color: #FFFFFF;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  border-radius: 4px;
+}
+
+.reservation__button:hover{
+  opacity: 70%;
+}
+
+.reservation__checkbox{
+  border-radius: 2px;
 }
