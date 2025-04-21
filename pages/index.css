@@ -259,6 +259,8 @@
 
 .reservation__title{
   margin-top: 100px;
+  margin-left: 0;
+  margin-right: 0;
   margin-bottom: 80px;
   align-items: center;
   justify-content: center;
