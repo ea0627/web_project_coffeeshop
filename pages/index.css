@@ -229,7 +229,7 @@
 
 .reservation {
   box-sizing: border-box;
-  /* padding-top: 100px; */
+  padding-top: 100px;
   padding-bottom: 120px;
   background-color: #D9E7FF;
   background-image: url(../images/background_reservation.svg);
@@ -243,7 +243,7 @@
 
 
 .reservation__title{
-  margin-top: 100px;
+  margin-top: auto;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 80px;
