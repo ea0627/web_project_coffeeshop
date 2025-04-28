@@ -14,6 +14,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
+
 </head>
 <body>
   <div class="page">
@@ -24,24 +25,16 @@
         <img class="nav__logo"
         src="./images/logo_coffeeshop_dark.svg"
         alt="logo Triple Expresso color negro">
-
         <ul class="nav__links">
-          <li>
-            <a class="nav__link" href="#recipes">Recetas</a>
-          </li>
-          <li>
-            <a class="nav__link" href="#reservation">Reservar una mesa</a>
-          </li>
-          <li>
-            <a class="nav__link" href="">Contactos</a>
-          </li>
+          <li><a class="nav__link" href="#recipes">Recetas</a></li>
+          <li><a class="nav__link" href="#reservation">Reservar una mesa</a></li>
+          <li><a class="nav__link" href="#footer">Contactos</a></li>
         </ul>
       </nav>
 
       <h1 class="header__title">
-        <span class="span-accent">
-          Café de especialidad
-        </span>en Triple Peaks</h1>
+        <span class="header__span-accent">Café de especialidad</span>en Triple Peaks</h1>
+
       <p class="header__description">
         ¡Te damos la bienvenida a nuestra zona de estudio!
         Aquí tenemos café para darte energía y motivar tu creatividad.
@@ -53,14 +46,12 @@
       alt="Ilustración de café">
 
       <div class="header__footer">
-        <div class="header__footer header__footer_logo">
+        <div class="header__footer header__footer_col">
           <p class="header__paragraph"><strong>Horario:</strong></p>
           <p class="header__paragraph">Lunes a Viernes (de 10:00h a 19:00h)</p>
           <p class="header__paragraph">Sábados y Domingos (de 11:00h a 18:00h)</p>
         </div>
-        <!-- <div class="header__footer header__footer_logo"> -->
           <p class="header__paragraph">Avenida del Éxito 200, Ciudad Triple Peaks</p>
-        <!-- </div> -->
       </div>
 
     </header>
@@ -114,7 +105,37 @@
 
     </main>
 
-    <footer class="footer">
+    <footer class="footer" id="footer">
+      <div class="footer__content">
+        <img src="./images/logo_coffeeshop_light.svg"
+        alt="Logotipo"
+        class="footer__logo">
+        <div class="footer__circle"></div>
+        <section class="footer__social">
+          <h2 class="footer__social-heading">Redes sociales</h2>
+          <ul class="footer__list">
+            <li class="footer__list-item">
+              <a href="#" class="footer__social-link">
+                <img src="./images/instagram_white.svg"
+                alt="Instagram"
+                class="footer__social-icon">
+                Instagram
+              </a>
+            </li>
+            <li class="footer__list-item">
+              <a href="#" class="footer__social-link">
+                <img src="./images/facebook_white.svg"
+                alt="Facebook"
+                class="footer__social-icon">
+                Facebook
+              </a>
+            </li>
+          </ul>
+        </section>
+      </div>
+        <p class="footer__copyright">
+          © 2025 Eduardo Amaya
+        </p>
 
     </footer>
   </div>
