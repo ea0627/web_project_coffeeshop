@@ -215,6 +215,8 @@
 
 @import url(../blocks/reservation.css);
 
+@import url(../blocks/form.css);
+
 /* .reservation {
   box-sizing: border-box;
   padding-top: 100px;
