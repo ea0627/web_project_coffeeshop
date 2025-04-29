@@ -15,7 +15,7 @@
 .footer__logo {
   width: 105px;
   height: 39px;
-  z-index: 2;
+  z-index: 1;
 }
 
 .footer__circle {
